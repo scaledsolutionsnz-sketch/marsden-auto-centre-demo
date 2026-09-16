@@ -1,0 +1,1 @@
+const menu=document.querySelector('.menu'),links=document.querySelector('.navlinks');if(menu&&links){menu.addEventListener('click',()=>{const open=links.classList.toggle('open');menu.setAttribute('aria-expanded',open);links.style.display=open?'grid':''})}
