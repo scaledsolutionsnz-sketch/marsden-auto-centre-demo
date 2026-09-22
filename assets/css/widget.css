@@ -21,11 +21,11 @@
     transition: .5s;
 }
 .widget-service-menu ul li a.current {
-    background: #fc9615;
+    background: #1f9c8a;
     color: #fff;
 }
 .widget-service-menu ul li a:hover {
-    background: #fc9615;
+    background: #1f9c8a;
     color: #fff;
 }
 .widget-service-menu ul li a i {
@@ -70,7 +70,7 @@
     height: 75px;
     line-height: 75px;
     text-align: center;
-    background: #FC9615;
+    background: #1F9C8A;
     color: #fff;
 }
 .why-choose-us-title3 h2 {
@@ -87,7 +87,7 @@
     right: 0;
     width: 100%;
     height: 100%;
-    background: rgba(252,150,21,.75);
+    background: rgba(31, 156, 138,.75);
     opacity: 0;
     transition: .5s;
 }
@@ -120,7 +120,7 @@
 }
 .widget .team-content-socail a {
     font-size: 16px;
-    color: #fc9615;
+    color: #1f9c8a;
     display: block;
     margin: 4px 0;
     transition: .3s;
@@ -192,7 +192,7 @@
     right: -15px;
 }
 .meta-blog a:hover {
-    color: #fc9615;
+    color: #1f9c8a;
 }
 .meta-blog-right a {
     position: relative;
@@ -201,7 +201,7 @@
     margin-left: 15px;
 }
 .meta-blog-right a:hover {
-    color: #fc9615;
+    color: #1f9c8a;
 }
 .meta-blog-right a:before {
     position: absolute;
@@ -223,7 +223,7 @@
     transition: .3s;
 }
 .blog-page-title h2 a:hover {
-    color: #fc9615;
+    color: #1f9c8a;
 }
 .meta-blog1 {
     float: left;
@@ -246,10 +246,10 @@
     right: -15px;
 }
 .meta-blog1 a:hover {
-    color: #fc9615;
+    color: #1f9c8a;
 }
 .meta-blog span:hover {
-    color: #fc9615;
+    color: #1f9c8a;
 }
 .blog-page-title1 h2 {
     font-size: 21px;
@@ -260,7 +260,7 @@
     display: block;
 }
 .blog-page-title1 h2 a:hover {
-    color: #fc9615;
+    color: #1f9c8a;
 }
 .search {
     padding: 35px 30px 35px;
@@ -357,14 +357,14 @@ button.icons {
     border-radius: 5px;
 }
 .Tags-Cloud-title a:hover {
-    background: #fc9615;
+    background: #1f9c8a;
     color: #fff;
 }
 .popular-post-content a:hover {
-    color: #fc9615;
+    color: #1f9c8a;
 }
 .categories-content ul li a:hover {
-    color: #fc9615;
+    color: #1f9c8a;
 }
 /* Calender*/
 .calender-area {
@@ -447,7 +447,7 @@ border: 1px solid #ccc;
 background-color: #fff;
 }
 .all-date li.monthdate:hover {
-    background-color: #fc9615;
+    background-color: #1f9c8a;
     color: #fff;
 }
 .widget-items p {
@@ -492,7 +492,7 @@ label {
     height: 35px;
     width: 35px;
     line-height: 35px;
-    background: #fc9615;
+    background: #1f9c8a;
     text-align: center;
     color: #fff;
     transition: .5s;
@@ -512,7 +512,7 @@ label {
 .block-quite {
     padding: 20px 30px;
     font-size: 19px;
-    border-left: 4px solid #fc9615;
+    border-left: 4px solid #1f9c8a;
     color: #232;
     font-style: italic;
     font-weight: 400;
@@ -537,7 +537,7 @@ button.btn.btn-link.collapsed {
 }
 .btn-link {
     font-weight: 600;
-    color: #FC9615;
+    color: #1F9C8A;
     text-decoration: none;
 }
 .video-icon5 {
@@ -556,7 +556,7 @@ button.btn.btn-link.collapsed {
     text-align: center;
     border-radius: 100%;
     position: relative;
-    color: #fc9615;
+    color: #1f9c8a;
     -webkit-animation: ripple-white 1s linear infinite;
     animation: ripple-blue 1s linear infinite;
     -webkit-transition: .5s;

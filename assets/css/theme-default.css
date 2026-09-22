@@ -48,7 +48,7 @@ a{
     transition: all 0.3s ease-out 0s;
 }
 a{
-	 color: #fc9615;
+	 color: #1f9c8a;
 }
 a:focus,
 .btn:focus {
@@ -133,7 +133,7 @@ button:focus
 	outline-color:transparent;
 }
 textarea:focus{
-    background: rgba(252,150,21,0.2);
+    background: rgba(31, 156, 138,0.2);
 	border-color:transparent;
 	outline-color:transparent;
     box-shadow: 0 0 0 0.2rem rgb(252 150 21 / 50%);
