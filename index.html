@@ -212,6 +212,18 @@
      by a hairline rather than as two things you can tap. */
   .dreamit-button.banner-button a { border-radius: 999px; }
 
+  /* .dreamit-button:after is a #dedede slab, 100% by 100%, sitting at
+     z-index:-1 behind the whole button group. It is the old theme's hover
+     effect: the grey block slides out from under the button when you point at
+     it. Square buttons covered it almost exactly, so it only ever showed as a
+     thin grey line between the two. Rounding them turned it into a visible
+     pale rectangle around both, which is how it was found.
+
+     It goes on phones. There is no hover on a touch screen, so it is a
+     decoration that cannot fire, and it was already leaking through before
+     the corners were rounded. Desktop keeps the effect. */
+  .dreamit-button.banner-button:after { display: none; }
+
   /* The phone number button was background rgba(0,0,0,.18), which is 82%
      transparent, so how it looked depended entirely on which part of the hero
      photo happened to sit behind it. Stacked under the quote button on a
