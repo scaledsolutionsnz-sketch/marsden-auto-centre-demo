@@ -192,7 +192,50 @@
   .mac-email-button{background:#1f9c8a;color:#fff!important}
   .footer-email-button{display:inline-block;margin-top:10px;padding:10px 14px;border:1px solid rgba(255,255,255,.35);border-radius:999px;color:#fff!important;font-weight:700}
   @media(max-width:990px){.dreamit_nav_manu,.dreamit_nav_manu.sticky{height:86px;min-height:86px}.dreamit_nav_manu .logo_img img{max-height:60px}}
-</style></head>
+</style><style id="mac-mobile">
+/* Phone pass, 23 Sep 2026. Every rule here is inside one max-width:767px
+   block on purpose: the desktop layout was signed off and is not to move.
+   This block is last in the head so it wins on source order rather than by
+   piling on !important. */
+@media (max-width: 767px) {
+
+  /* Justified text needs a wide column to work. In the ~370px one a phone
+     gives it, the browser has to stretch the spaces instead, and lines like
+     "to keep your vehicle looking great and driving safely" opened visible
+     rivers of white down the paragraph. Left aligned reads normally; a
+     ragged right edge is the right trade at this width. Desktop keeps the
+     justified setting it was designed with. */
+  .dreamit-section-title p { text-align: left; }
+
+  /* The two hero buttons were square cornered slabs 12px apart while every
+     other button on the site is a full pill, so they read as one block split
+     by a hairline rather than as two things you can tap. */
+  .dreamit-button.banner-button a { border-radius: 999px; }
+
+  /* The phone number button was background rgba(0,0,0,.18), which is 82%
+     transparent, so how it looked depended entirely on which part of the hero
+     photo happened to sit behind it. Stacked under the quote button on a
+     phone it landed on the pale logo watermark and came out light grey with
+     white text on top: it read as a disabled control rather than as the phone
+     number, which is the one thing a panel beater's customer wants at 60kph
+     on the side of the road. Solid keeps it legible wherever it lands. */
+  .dreamit-button.banner-button .hero-secondary-cta {
+    background: rgba(0, 0, 0, .62);
+    border-color: rgba(255, 255, 255, .75);
+  }
+
+  /* Two pills, identical #1f9c8a background, different text colour: Call was
+     #111 and Email us was #fff. Black measures 5.6:1 against that teal and
+     white only 3.4:1, which is under the 4.5:1 minimum, so both take black.
+     NOTE: this mismatch is on desktop too and is deliberately left there. */
+  .mac-contact-section .mac-email-button { color: #111 !important; }
+
+  /* Enough to fit "COLLISION REPAIR / PANEL & PAINT / TYRES" on one line at
+     390px rather than dropping TYRES onto a line by itself. */
+  .hero-kicker { font-size: .72rem; letter-spacing: .14em; }
+}
+</style>
+</head>
 <body>
 <!-- Loder -->
 <!-- <div class="loader-wrapper">
